@@ -1,0 +1,29 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "serialport": "^12.0.0"
+  },
+  "devDependencies": {
+    "electron": "^33.1.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.wellness.app",
+    "productName": "Wellness Reader",
+    "win": {
+      "target": "nsis",
+      "icon": "path/to/icon.ico"
+    }
+  }
+}

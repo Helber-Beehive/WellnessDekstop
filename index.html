@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serial Reader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+        <h1>Serial Reader</h1>
+        <h3>This data is being streamed from the serial port:</h3>
+        
+        <div class="serial-container">
+            <div class="serial-content">
+                <div class="data-container">
+                    <h4>Get 1 Data:</h4>
+                    <p id="data1-content">0</p>
+                </div>
+                <button id="data1-button">GET DATA 1</button>
+            </div>
+
+            <div class="serial-content">
+                <div class="data-container">
+                    <h4>Get 2 Data:</h4>
+                    <p id="data2-content">0</p>
+                </div>
+                <button id="data2-button">GET DATA 2</button>
+            </div>
+
+            <div class="serial-content">
+                <div class="data-container">
+                    <h4>Get 3 Data:</h4>
+                    <p id="data3-content">0</p>
+                </div>
+                <button id="data3-button">GET DATA 3</button>
+            </div>
+
+            <div class="serial-content">
+                <div class="data-container">
+                    <h4>Get 4 Data:</h4>
+                    <p id="data4-value1">Value 1: 0</p>
+                    <p id="data4-value2">Value 2: 0</p>
+                </div>
+                <button id="data4-button">GET DATA 4</button>
+            </div>
+
+            <!-- Bagian untuk Data 5 -->
+            <div class="serial-content">
+                <div class="data-container">
+                    <h4>Get 5 Data:</h4>
+                    <p id="data5-value1">Value 1: 0</p>
+                    <p id="data5-value2">Value 2: 0</p>
+                </div>
+                <button id="data5-button">GET DATA 5</button>
+            </div>
+        </div>
+    </div>
+    <script src="renderer.js"></script>
+</body>
+</html>
